@@ -1,0 +1,8 @@
+:root { --bg: #ffffff; --text: #121212; --gray: #666; --border: #ececec; }
+body { margin: 0; font-family: 'Inter', sans-serif; background-color: var(--bg); color: var(--text); }
+.navbar { padding: 40px 6%; font-size: 0.8rem; letter-spacing: 2px; text-transform: uppercase; }
+.hero { padding: 0 6% 80px 6%; max-width: 900px; }
+.hero h1 { font-family: 'Playfair Display', serif; font-size: 3.5rem; margin-bottom: 20px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); gap: 1px; background-color: var(--border); border-top: 1px solid var(--border); }
+.project-card { background-color: white; padding: 60px 10%; text-decoration: none; color: inherit; }
+.project-card h2 { font-family: 'Playfair Display', serif; font-size: 1.8rem; }
